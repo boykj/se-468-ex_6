@@ -14,8 +14,4 @@ class Button
     end
   end
 
-	def lighten_foreground
-		paint(label_text, x, y, foreground_color + 10, '#E0E0E0')
-	end
-
 end
