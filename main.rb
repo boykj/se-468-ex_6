@@ -4,7 +4,7 @@ class Button
 	
 	attr_reader :is_dark_mode
 
-	def draw_button(label_text, x, y, foreground_color)
+	def draw_button
     if is_dark_mode
       # darken foreground color for dark mode
       darken_foreground
