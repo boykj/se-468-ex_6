@@ -1,3 +1,5 @@
+require_relative 'foreground_color'
+
 class Button
 	
 	attr_reader :is_dark_mode
