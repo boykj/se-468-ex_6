@@ -2,7 +2,10 @@ class ForegroundColor
 
 	attr_reader :label_text, :x, :y, :foreground_color
 
-	def initialize
+	def initialize(label_text, x, y)
+		@label_text = label_text
+		@x = x
+		@y = y
 	end
 
 	def darken_foreground
