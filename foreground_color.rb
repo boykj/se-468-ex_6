@@ -1,0 +1,2 @@
+class ForegroundColor
+end
