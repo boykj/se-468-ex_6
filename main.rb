@@ -8,7 +8,7 @@ class Button
       darken_foreground
     else
       # lighten foreground color for non-dark mode
-      paint(label_text, x, y, foreground_color + 10, '#E0E0E0')
+      lighten_foreground
     end
   end
 
