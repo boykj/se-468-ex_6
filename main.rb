@@ -3,7 +3,7 @@ require_relative 'foreground_color'
 class Button
 	
 	attr_reader :is_dark_mode
-	color = ForegroundColor.new()
+	color = ForegroundColor.new
 
 	def draw_button
     if is_dark_mode
